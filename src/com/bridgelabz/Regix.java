@@ -6,7 +6,7 @@ public class Regix {
     static Pattern pattern=Pattern.compile("^([A-Z]){3,}$");
 
     public static void main(String[] args) {
-        String testString="VANI";
+        String testString="VANIMANAVACHARI";
         Matcher matcher= pattern.matcher(testString);
         if (matcher.matches()){
             System.out.println("Matches");
