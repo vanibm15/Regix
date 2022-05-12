@@ -6,7 +6,7 @@ public class Regix {
     static Pattern pattern=Pattern.compile("^([0-9]*[a-zA-Z]){3,}[0-9a-zA-Z]*$");
 
     public static void main(String[] args) {
-        String testString="vanishree";
+        String testString="Vanishree";
         Matcher matcher= pattern.matcher(testString);
         if (matcher.matches()){
             System.out.println("Matches");
